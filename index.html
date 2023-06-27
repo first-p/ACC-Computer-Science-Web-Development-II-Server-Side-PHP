@@ -1,0 +1,84 @@
+<!-- -----------------------------------
+Name: Fred butoma
+Assignment 3
+File: index.html
+Purpose: This website takes input from 
+         from the user, then generates
+         a title using their inputs.
+--------------------------------------->
+<!DOCTYPE html>
+    <html lang="en-US">
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta charset="utf-8">
+            <meta name="keywords" content="Your Key Words Here">
+            <meta name="description" content="Your Description Here">
+            <meta name="Author" content="Fred Butoma">
+            <title>Assignment 3: Server Side Introduction</title>
+
+            <link rel="stylesheet" type="text/css" href="css/main.css">
+            <link rel="icon" href="favicon.ico" type="image/ico">
+        </head>
+        <header id="header"> 
+            <h2>Assignment 3: Server-Side Intro</h2>
+         </header>
+
+        <body>
+            <nav class="horizontal">
+      
+                <div class="text-large menu-padding">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Page 2</a></li>
+                        <li><a href="#">Page 3</a></li>
+                    </ul>
+                </div>
+            </nav>
+                <!-- <h2 class="main-title" id="main-title">Assignment 3: Server Side Introduction</h2> -->
+                <hr>
+            </div>
+
+            <!-- <label for="update-checker">Update #14</label> -->
+            <form action="process.php" method="post">
+        
+                <label for="title">Title</label><br>
+                <select id="title" name="title">
+                    <option value="" seclected></option>
+                    <option value="Mr.">Mr.</option>
+                    <option value="Mrs.">Mrs.</option>
+                    <option value="Ms.">Ms.</option>
+                    <option value="Dr.">Dr.</option>
+                    <option value="Sir">Sir</option>
+                    <option value="Madam">Madam</option>
+                    <option value="Lord">Lord</option>
+                    <option value="King">King</option>
+                    <option value="Queen">Queen</option>
+                    <option value="Prince">Prince</option>
+                    <option value="Princess">Princess</option>
+                    <option value="Duke">Duke</option>
+                    <option value="Dutchess">Dutchess</option>
+                </select><br>
+
+    
+                <label for="favorite_drink">Favorite Drink</label><br>
+                <input type="text" id="fave_drink" name="fave_drink" placeholder="ex. Tea"><br>
+                
+
+                <label for="pet_name">Pets Name</label><br>
+                <input type="text" id="pets_name" name="pet_name" placeholder="ex. Rex"><br>
+                
+
+                <label for="favorite_fictional_place">Favorite Fictional Place</label><br>
+                <input type="text" id="fave_fictional_place" name="fave_fictional_place" placeholder="ex. Narnia"><br>
+
+                <label for="favorite_real_place">Favorite Real Place</label><br>
+                <input type="text" id="fave_real_place" name="fave_real_place" placeholder="ex. Texas"><br> 
+                
+                <button type="submit">Submit</button>
+            </form>
+        </body>
+        <footer>
+            <h3>Assignment 3: Server Side Intro &emsp; freddybutoma.me &emsp; Austin, TX</h3>
+        </footer>
+
+ </html>
